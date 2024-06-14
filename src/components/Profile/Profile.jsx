@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Profile = ({
   tag,
-  avatar,
+  image,
   username,
   location,
   stats: { followers, views, likes },
@@ -11,7 +11,7 @@ const Profile = ({
   return (
     <div className={css.profile}>
       <div className={css['avatar-block']}>
-        <img className={css.avatar} src={avatar} alt="User avatar" />
+        <img className={css.avatar} src={image} alt="User avatar" />
         <p className={css.username}>{username}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
@@ -37,7 +37,7 @@ const Profile = ({
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   stats: PropTypes.object.isRequired,
 };

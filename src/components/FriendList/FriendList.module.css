@@ -4,11 +4,12 @@
     padding: 0;
     gap: 10px;
     align-self: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    text-align: center;
   }
   .list-item {
     width: 130px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
   }
