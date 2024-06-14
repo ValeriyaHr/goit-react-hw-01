@@ -1,0 +1,18 @@
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font: bold;
+    margin-bottom: 0;
+  }
+  .status {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .online {
+    color: #4caf50;
+  }
+  
+  .offline {
+    color: #f44336;
+  }
